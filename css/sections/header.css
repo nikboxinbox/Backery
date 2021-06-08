@@ -1,0 +1,136 @@
+.section-header {
+  .top-bar {
+    display: flex;
+    width: 100%;
+    height: 50px;
+    background-color: #c2e8ce;
+    position: relative;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: 0em;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+
+    .cross {
+      position: absolute;
+      width: 16px;
+      height: 16px;
+      right: 17px;
+      top: 50%;
+      margin-top: -8px;
+    }
+  }
+  .header-bar {
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+    margin-bottom: 20px;
+
+    .logo {
+      width: 110px;
+      height: 95px;
+    }
+
+    .header-menu {
+      display: flex;
+      align-items: center;
+      width: 655px;
+      justify-content: space-between;
+      margin-right: 9%;
+      font-family: Poppins;
+      font-size: 15px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 23px;
+      letter-spacing: 0em;
+
+      .header-item--add {
+        position: relative;
+      }
+
+      .header-item--add:after {
+        content: url("img/svg/carpet.svg");
+        position: absolute;
+        top: 6px;
+      }
+    }
+    div.right-balls {
+      display: flex;
+      align-items: center;
+
+      .eliipse-search,
+      .elipse-profile,
+      .elipse-cart {
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        border: 1px solid #bfbfbf;
+        position: relative;
+        margin-right: 10px;
+        font-family: "Poppins";
+        font-size: 9px;
+        font-weight: 500;
+        line-height: 16px;
+        text-align: center;
+        
+
+        .search {
+          position: absolute;
+          margin: 18px;
+        }
+        .profile {
+          position: absolute;
+          margin: 15px;
+        }
+        .cart {
+          position: absolute;
+          margin: 15px;
+        }
+        div.cart-sum {
+          position: absolute;
+          left: 44px;
+          width: 16px;
+          height: 16px;
+          border-radius: 50%;
+          background-color: #ff8126;
+        }
+      }
+    }
+  }
+
+  .header-main {
+    width: 100%;
+    min-height: 500px;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding-top: 125px;
+    background-image: url("img/svg/main-banner.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+
+    .heading-header {
+      max-width: 570px;
+    }
+    .subheading-header {
+      font-family: Poppins;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 26px;
+      line-height: 39px;
+      margin-top: 5px;
+      max-width: 570px;
+    }
+
+    .btn-header {
+      height: 45px;
+      width: 200px;
+      border-radius: 5px;
+      margin-top: 40px;
+    }
+  }
+}

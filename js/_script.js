@@ -1,1 +1,1 @@
-recquire('../css/_style.css')
+require('../css/_style.css')
