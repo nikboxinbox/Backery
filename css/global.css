@@ -1,3 +1,6 @@
+* {
+  box-sizing: border-box;
+}
 body {
   margin: 0;
   font-family: "Poppins";
@@ -57,7 +60,7 @@ p {
   margin: 0px;
 }
 
-button{
+button {
   border: 0;
   border-radius: 5px;
   background-color: #ff8126;
@@ -67,4 +70,8 @@ button{
   font-weight: 500;
   line-height: 27px;
   color: white;
+}
+
+span {
+  color: #ff8126;
 }

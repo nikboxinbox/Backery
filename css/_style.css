@@ -1,2 +1,4 @@
-@import 'global.css';
-@import 'sections/header.css';
+@import "global.css";
+
+@import "sections/header.css";
+@import "sections/latest-offers.css";
