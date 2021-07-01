@@ -1,0 +1,35 @@
+.heading-why-choose {
+  text-align: center;
+  padding-top: 80px;
+}
+
+.reasons-choosing {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 45px;
+
+  .reason-choosing {
+    width: 18%;
+
+    .picture-reason {
+      width: 48px;
+      height: 48px;
+    }
+
+    .heading-reason {
+      font-family: "Cormorant";
+      font-size: 25px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 30px;
+    }
+
+    .content-reason {
+      font-family: "Poppins";
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 24px;
+    }
+  }
+}
