@@ -1,6 +1,7 @@
 * {
   box-sizing: border-box;
 }
+
 body {
   margin: 0;
   font-family: "Poppins";
@@ -11,13 +12,16 @@ body {
   letter-spacing: 0em;
   text-align: left;
 }
+
 .container {
   width: 1171px;
   margin: 0 auto;
 }
+
 p {
   display: inline-block;
 }
+
 img {
   display: block;
 }
@@ -75,5 +79,3 @@ button {
 span {
   color: #ff8126;
 }
-
-

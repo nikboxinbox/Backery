@@ -24,6 +24,7 @@
       margin-top: -8px;
     }
   }
+
   .header-bar {
     display: flex;
     margin-top: 20px;
@@ -58,6 +59,7 @@
         top: 6px;
       }
     }
+
     div.right-balls {
       display: flex;
       align-items: center;
@@ -76,20 +78,23 @@
         font-weight: 500;
         line-height: 16px;
         text-align: center;
-        
+
 
         .search {
           position: absolute;
           margin: 18px;
         }
+
         .profile {
           position: absolute;
           margin: 15px;
         }
+
         .cart {
           position: absolute;
           margin: 15px;
         }
+
         div.cart-sum {
           position: absolute;
           left: 44px;
@@ -116,6 +121,7 @@
     .heading-header {
       max-width: 570px;
     }
+
     .subheading-header {
       font-family: Poppins;
       font-style: normal;

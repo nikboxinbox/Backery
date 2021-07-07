@@ -1,0 +1,33 @@
+.section-city-backery {
+  margin-top: 80px;
+  padding-top: 60px;
+  height: 395px;
+  background-color: #6090C3;
+  background-image: url('img/Frame.png');
+
+  .header-city-backery {
+    color: #fff;
+    text-align: center;
+    font-family: "Cormorant";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+  }
+
+  .logo-city-backery {
+    margin: 0 auto;
+    width: 100px;
+    margin-top: 30px;
+  }
+
+  .btn-city-backery {
+    width: 329px;
+    height: 45px;
+    margin-top: 30.5px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0)
+  }
+
+}

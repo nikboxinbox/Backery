@@ -1,0 +1,22 @@
+.wrapper-surprise {
+  height: 432px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 80px;
+
+  .right-block-surprise {
+    padding-top: 60px;
+    padding-left: 30px;
+
+    p.text-surprise {
+      margin-top: 20px;
+    }
+
+    .btn-surprise {
+      width: 140px;
+      height: 45px;
+      margin-top: 30px;
+    }
+  }
+}
