@@ -1,0 +1,25 @@
+.section-tell-friend {
+  background-image: url('img/qqq.png');
+  background-color: rgba(255, 129, 38, 0.12);
+  min-width: 1170px;
+  ;
+  text-align: center;
+  margin-top: 80px;
+  padding-top: 60px;
+  height: 260px;
+
+  .list-social-networks {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+
+    .item-social-networks {
+      margin-right: 30px;
+
+      &:nth-child(6) {
+        margin-right: 0px;
+      }
+    }
+
+  }
+}

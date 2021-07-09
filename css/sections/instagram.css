@@ -1,0 +1,36 @@
+.section-instagram {
+  text-align: center;
+  padding-top: 80px;
+
+  .gallery-instagram {
+    display: flex;
+    margin-top: 40px;
+    justify-content: space-between;
+    align-items: center;
+
+    .arrow-instagram {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      border: 1px solid #B2B2B2;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .list-gallery-instagram {
+      display: flex;
+      height: 186px;
+    }
+
+    .item-gallery-instagram {
+      border: 15px solid white;
+      filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+      margin-right: 30px;
+
+       &:nth-child(5){
+         margin-right: 0px;
+       }
+    }
+  }
+}
